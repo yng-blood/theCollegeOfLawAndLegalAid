@@ -1,0 +1,130 @@
+.Hf_detail {
+  background-color: white;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  border: black SOLID;
+}
+
+.Hf_detail_sm {
+  background-color: black;
+  border: black 1px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 1fr;
+}
+
+.glads {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.glads :nth-child(2) {
+  margin-left: 190px;
+}
+
+.glads_nth-child {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+#images_BG {
+  background: url("");
+  background-repeat: no-repeat;
+
+}
+
+.I {
+  width: 50%;
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 40px;
+  text-decoration: none;
+  margin-top: 30px;
+  font-family: fantasy;
+  color: black;
+
+}
+
+ul li {
+
+  color: black;
+}
+
+.navbar :nth-child(1) {
+  padding-left: 40px;
+}
+
+.Nav_tiles {
+  padding-left: 20px;
+  text-decoration: none;
+
+}
+
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+  /* Change 'underline' to 'none' */
+}
+
+.ics {
+  /* background-color: black; */
+  position: absolute;
+  display: flex;
+  right: 16px;
+  border-radius: 20%;
+  top: 20px;
+  left: 30px;
+  height: 60px;
+  width: 60px;
+  background: black;
+}
+
+div.hamburger-react {
+  right: 16px;
+
+}
+
+ul.navbar li.Nav_tiles a {
+  color: black;
+}
+
+.Parent_grid_container {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  position: static;
+  background-image: -moz-radial-gradient(230px 343px 23px);
+  z-index: -1;
+  /* Adjust the gap as needed */
+  padding-top: 10px;
+}
+
+.full_image_section {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Child_grid_item {
+
+  padding: 20px;
+  text-align: center;
+}
+
+.Blank {
+  height: 54px;
+  background-repeat: repeat-x;
+}
